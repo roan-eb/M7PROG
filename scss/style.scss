@@ -2,3 +2,6 @@
 @use "./base.scss";
 @use "./abstracts/colors";
 @use "./abstracts/mediaqueries";
+
+@use "./components/header/header.scss";
+@use "./components/main/main.scss";

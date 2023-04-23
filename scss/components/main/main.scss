@@ -1,0 +1,17 @@
+@use "../../abstracts/vars";
+
+.happiness{
+    background: white;
+    min-height: calc(95vh - map-get(vars.$vhCalc, "heightOfHeader") - map-get(vars.$vhCalc, "paddingOfBody"));
+    display: flex;
+    padding: 4rem;
+    gap: 2rem;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+
+
+    &__section{
+        width: 50%;
+        background: green;
+    }
+}

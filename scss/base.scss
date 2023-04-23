@@ -3,8 +3,8 @@
 
 
 body{
-    padding-bottom: 0;
+    padding: map-get(vars.$vhCalc, "paddingOfBody");
     font-family: vars.$font-family;
-    background: white;
+    background: colors.$background;
     min-height: 100vh;
 }

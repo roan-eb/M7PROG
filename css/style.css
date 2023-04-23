@@ -13,10 +13,44 @@ body {
 }
 
 body {
-  padding-bottom: 0;
+  padding: 4rem;
   font-family: "Ubuntu", sans-serif;
-  background: white;
+  background: #F9B208;
   min-height: 100vh;
+}
+
+.header {
+  background: white;
+  height: 8rem;
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+  padding: 2rem;
+}
+.header__logo > i {
+  font-size: 150%;
+  border: 0.3rem solid black;
+  padding: 2rem;
+  border-radius: 50%;
+}
+.header__logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.happiness {
+  background: white;
+  min-height: calc(95vh - 8rem - 4rem);
+  display: flex;
+  padding: 4rem;
+  gap: 2rem;
+  border-bottom-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+}
+.happiness__section {
+  width: 50%;
+  background: green;
 }
 
 /*# sourceMappingURL=style.css.map */

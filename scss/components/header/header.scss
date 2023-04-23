@@ -1,0 +1,22 @@
+@use "../../abstracts/vars";
+
+.header{
+    background: white;
+    height: map-get(vars.$vhCalc, "heightOfHeader");
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    padding: 2rem;
+
+    &__logo > i {
+        font-size: 150%;
+        border: 0.3rem solid black;
+        padding: 2rem;
+        border-radius: 50%;
+    }
+    &__logo{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 0.5rem;
+    }
+}
